@@ -1,0 +1,10 @@
+1
+app
+23
+hello
+wo
+中国
+！，。
+,./
+
+FoooooooooooooBaaaaaaaaaaaar

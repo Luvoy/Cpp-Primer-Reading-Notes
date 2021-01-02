@@ -1,0 +1,9 @@
+当一个对象被用作rvalue，用的是其值（内容）；当对象被用作lvalue，用的是其身份（地址）。
+
+需要rvalue的地方，可以用lvalue代替，这时用的是内容（值）。不能把rvalue当成lvalue用。
+
+赋值运算需要lvalue在左侧，得到的结果也是lvalue
+
+取地址得到rvalue
+
+decltype有所不同，如果表达式的结果是rvalue，decltype表达式得到引用（注意是表达式）
